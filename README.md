@@ -12,11 +12,33 @@
 
 1 - Download the required 3D modeling files (.stl) from here: https://drive.google.com/drive/folders/18E0vgwkuOhObBcaOVkfFNj-FnycijkbE
 
-    You can ignore the .c4d files they aren't usable with Gazebo or Rviz. There are 7 .stl files, The first 6 represent different parts 
-    of the Robot Arm with the the entire robot arm being the 7th. For more information refer to end of the document for a 
-    more thorough explanation.
+<sub>You can ignore the .c4d files they aren't usable with Gazebo or Rviz. There are 7 .stl files, The first 6 represent different parts 
+    of the Robot Arm with the the entire robot arm being the 7th. The 7th won't be used in this tutorial, however, you can open it using blender to get an idea
+  on how the the entire robot is supposed to look when constructed. 
+</sub>
     
 </br>
-    
+
 2 - Now the idea is that the Old Aruino Arm will be used as a base instead of starting from scratch. First things first backup the old Arm so that if anything
-goes wrong you can go back to the start. goto  <sup> catkin_*workspace name* </sup>
+goes wrong you can go back to the start. </br> 
+
+    catkin_**workspace name** -> src -> arduni_robot_arm  
+</br>   
+and copy the robot_arm_pkg file somewhere else.
+</br></br>
+
+3 - Now go to:
+
+    catkin_**workspace name** -> src -> arduni_robot_arm - > robot_arm_pkg -> meshes - > stl
+    
+4 - Delete all the files then add the 6 .stl files downloaded from step 1.
+![image](https://user-images.githubusercontent.com/109832303/184194780-867b14d1-9dbc-4aa0-8a02-b073b3bb59c4.png)
+
+5 - Now go to
+
+    catkin_**workspace name** -> src -> arduni_robot_arm - > robot_arm_pkg -> urdf
+    
+6 - Open the .urdf file using a text editor and replace everything with the below piece of code: 
+
+    catkin_**workspace name** -> src -> arduni_robot_arm - > robot_arm_pkg -> meshes - > stl
+
