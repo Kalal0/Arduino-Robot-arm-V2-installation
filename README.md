@@ -55,6 +55,12 @@ Change the workspace name and user name tags accordingly.
 8 - And that's it you can now view the new robot Arm in Rviz and move it freely using the joint state publisher.
 
 
+![image](https://user-images.githubusercontent.com/109832303/184198154-84eb6f68-dd91-4a15-b24c-46516c4d699f.png)
+![Robot3](https://user-images.githubusercontent.com/109832303/184207078-5555315a-32e9-4172-bcf1-5b197d8b566e.gif)
 
 
     
+# Procedure:
+
+  Most of the effort was spent on the getting the .urdf file to work. Even with using the old Arm .urdf file as a template, it took awhile getting the dimensions right. If you'd like to play around with the dimensions and joint angles,  this link will have all the information necessary: http://wiki.ros.org/urdf/XML
+  
