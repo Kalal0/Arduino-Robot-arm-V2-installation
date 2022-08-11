@@ -45,7 +45,16 @@ and copy the robot_arm_pkg file somewhere else.
    
 7 - Now you're done all that's left is to remake the catkin file and run Rviz. Open the cmd and input the following commands: 
 
-    1 - 
+    1 - cd catkin_*workspace name*
+    2 - catkin_make
+    3 - source /home/*user name*/catkin_*workspace name*/devel/setup.bash
+    4 - roslaunch robot_arm_pkg check_motors.launch
+
+Change the workspace name and user name tags accordingly.
+
+8 - And that's it you can now view the new robot Arm in Rviz and move it freely using the joint state publisher.
+
+
 
 
     
