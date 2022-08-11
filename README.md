@@ -38,10 +38,14 @@ and copy the robot_arm_pkg file somewhere else.
 
     catkin_**workspace name** -> src -> arduni_robot_arm - > robot_arm_pkg -> urdf
     
-6 - Delete the urdf file in that directory and replace it with the following file: 
+6 - Open the .urdf file using a txt editor and replace it's content with the following: 
 
 
    [document.txt](https://github.com/Kalal0/Arduino-Robot-arm-V2-installation/files/9310677/document.txt)
+   
+7 - Now you're done all that's left is to remake the catkin file and run Rviz. Open the cmd and input the following commands: 
+
+    1 - 
 
 
     
